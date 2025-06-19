@@ -1,4 +1,4 @@
-import { startOfDay, format, subDays } from "date-fns";
+import {  format, subDays } from "date-fns";
 
 const getLast7Days = () => {
   return Array.from({ length: 7 }, (_, i) => {
