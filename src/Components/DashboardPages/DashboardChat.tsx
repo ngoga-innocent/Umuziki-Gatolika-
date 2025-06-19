@@ -13,7 +13,7 @@ import { realdb } from "../../firebase";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../store";
-import ChatBg from '../../assets/DefaultWallpaper.png'
+// import ChatBg from '../../assets/DefaultWallpaper.png'
 export default function DashboardChat() {
   const [messages, setMessages] = useState<any>([]);
   const [message,setMessage]=useState<string>("")

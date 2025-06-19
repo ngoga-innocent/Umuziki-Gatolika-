@@ -1,15 +1,12 @@
 import {
-  BarChart,
-  Bar,
-  LineChart,
-  Line,
+  
   AreaChart,
   Area,
   XAxis,
   YAxis,
   Tooltip,
   ResponsiveContainer,
-  CartesianGrid
+  
 } from "recharts";
 import { groupPostsByDay } from "../../Utils/groupPosts";
 const PostAnalytics = ({ posts }: { posts: any[] }) => {

@@ -8,7 +8,7 @@ import TopBar from "./DashboardPages/TopBar";
 
 export default function DashboardLayout() {
   const { user } = useSelector((state: RootState) => state?.auth);
-  console.log(user);
+  // console.log(user);
   const navigate = useNavigate();
   useEffect(() => {
     if (user == null) {
