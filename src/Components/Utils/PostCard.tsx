@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import Logo from "../../assets/icon.png";
 import { MessageCircleMore, ThumbsUp, Trash2Icon } from "lucide-react";

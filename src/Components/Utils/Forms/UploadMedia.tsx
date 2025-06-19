@@ -18,7 +18,7 @@ interface Props {
   currentUser: any;
 }
 
-const NewPostForm: React.FC<Props> = ({ currentUser }) => {
+const NewPostForm: React.FC<Props> = () => {
   const [caption, setCaption] = useState("");
   const [choirName, setChoirName] = useState("");
   const [eventDate, setEventDate] = useState("");
